@@ -6,11 +6,11 @@ to be maintained by various volunteers under the auspices of the Xiph.org Founda
 
 ## Installation in Arduino
 
-You can download the library as zip and call include Library -> zip library. Or you can git clone this project into the Arduino libraries folder e.g. with
+You can git clone this project into the Arduino libraries folder with
 
 ```
 cd  ~/Documents/Arduino/libraries
-git clone https://github.com/pschatzmann/arduino-libflace.git
+git clone https://github.com/pschatzmann/arduino-libflac.git --recursive
 
 ```
 
