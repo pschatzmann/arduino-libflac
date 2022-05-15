@@ -30,8 +30,8 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifdef HAVE_CONFIG_H
-#  include <config.h>
+#if defined(HAVE_CONFIG_H) || defined(ARDUINO)
+#  include <flac_config.h>
 #endif
 
 #include <limits.h>
