@@ -33,8 +33,8 @@
 #ifndef FLAC__SHARE__ALLOC_H
 #define FLAC__SHARE__ALLOC_H
 
-#ifdef HAVE_CONFIG_H
-#  include <config.h>
+#if defined(HAVE_CONFIG_H) || defined(ARDUINO)
+#  include <flac_config.h>
 #endif
 
 /* WATCHOUT: for c++ you may have to #define __STDC_LIMIT_MACROS 1 real early
@@ -42,6 +42,7 @@
  */
 
 #include <limits.h> /* for SIZE_MAX */
+
 #ifdef HAVE_STDINT_H
 #include <stdint.h> /* for SIZE_MAX in case limits.h didn't get it */
 #endif

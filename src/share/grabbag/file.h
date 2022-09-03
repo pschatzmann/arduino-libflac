@@ -25,8 +25,8 @@
 #define GRABAG__FILE_H
 
 /* needed because of off_t */
-#ifdef HAVE_CONFIG_H
-#  include <config.h>
+#if defined(HAVE_CONFIG_H) || defined(ARDUINO)
+#  include <flac_config.h>
 #endif
 
 #include <sys/types.h> /* for off_t */
