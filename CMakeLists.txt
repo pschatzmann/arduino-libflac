@@ -24,7 +24,7 @@ file(GLOB_RECURSE SRC_LIST_C CONFIGURE_DEPENDS  "${PROJECT_SOURCE_DIR}/src/*.c" 
 add_library (arduino_libflac ${SRC_LIST_C})
 
 #target_compile_options(arduino_libflac PRIVATE -Wdouble-promotion)
-target_compile_definitions(arduino_libflac PUBLIC -DPACKAGE_VERSION="1.3.4" -DHAVE_LROUND -DFLAC__HAS_OGG=true )
+target_compile_definitions(arduino_libflac PUBLIC -DPACKAGE_VERSION="1.3.4" -DHAVE_LROUND -DFLAC__HAS_OGG=true -DHAVE_CONFIG_H )
 
 target_link_libraries(arduino_libflac arduino_libopus)
 
