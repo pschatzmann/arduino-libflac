@@ -6,7 +6,8 @@ to be maintained by various volunteers under the auspices of the Xiph.org Founda
 
 ## Installation in Arduino
 
-You can git clone this project into the Arduino libraries folder with
+You can download the library as zip and execute -> Sketch -> Include Library -> Add .ZIP library. 
+Or you can git clone this project into the Arduino libraries folder with
 
 ```
 cd  ~/Documents/Arduino/libraries
@@ -20,5 +21,5 @@ This is just one of many __codecs__ that I have collected so far: Further detail
 
 ## Dependencies
 
-This library requires arduino-libopus
+This library requires [arduino-libopus](https://github.com/pschatzmann/arduino-libopus)
 
