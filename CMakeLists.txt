@@ -1,5 +1,17 @@
 cmake_minimum_required(VERSION 3.16)
 
+if (DEFINED ESP_PLATFORM)
+  # idf component
+  idf_component_register(
+      SRC_DIRS src/libFLAC
+      INCLUDE_DIRS src
+      REQUIRES codec-ogg
+  )
+
+  target_compile_options(${COMPONENT_LIB} PUBLIC -Wno-error -DPACKAGE_VERSION="1.3.4" -DHAVE_LROUND -DFLAC__HAS_OGG=true -DHAVE_CONFIG_H)
+
+else()
+
 # set the project name
 project(arduino_libflac)
 
@@ -30,3 +42,5 @@ target_link_libraries(arduino_libflac codec-ogg)
 
 # define location for header files
 target_include_directories(arduino_libflac PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src )
+
+endif()

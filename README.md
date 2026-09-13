@@ -1,5 +1,8 @@
 # arduino-libflac
 
+[![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
+[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-libflac)
+
 FLAC is an Open Source lossless audio codec developed by Josh Coalson from 2001
 to 2009. From 2012 to 2021 it was maintained by Erik de Castro Lopo. It continues
 to be maintained by various volunteers under the auspices of the Xiph.org Foundation.
