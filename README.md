@@ -1,7 +1,7 @@
-# arduino-libflac
+# codec-flac
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
-[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-libflac)
+[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/codec-flac)
 [![CMake](https://img.shields.io/badge/CMake-Supported-blue.svg)](https://cmake.org/)
 
 FLAC is an Open Source lossless audio codec developed by Josh Coalson from 2001
@@ -15,7 +15,7 @@ Or you can git clone this project into the Arduino libraries folder with
 
 ```
 cd  ~/Documents/Arduino/libraries
-git clone https://github.com/pschatzmann/arduino-libflac.git
+git clone https://github.com/pschatzmann/codec-flac.git
 
 ```
 ## Documentation
